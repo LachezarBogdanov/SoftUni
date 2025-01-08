@@ -1,0 +1,32 @@
+
+        <form class="planet-form" method="POST">
+            <label for="name">Name of Planet:</label>
+            <input type="text" id="name" value="{{planetData.name}}" name="name">
+
+            <label for="age">Age (in billion years):</label>
+            <input type="number" id="age" value="{{planetData.age}}" name="age">
+
+            <label for="solarSystem">Solar System:</label>
+            <input type="text" id="solarSystem" value="{{planetData.solarSystem}}" name="solarSystem">
+
+            <label for="type">Type:</label>
+            {{>typeSelect}}
+
+            <label for="moons">Moons (count):</label>
+            <input type="number" id="moons" value="{{planetData.moons}}" name="moons">
+
+            <label for="size">Size (in km):</label>
+            <input type="number" id="size" value="{{planetData.size}}" name="size">
+
+            <label for="rings">Rings:</label>
+            {{>ringsSelect}}
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4">{{planetData.description}}</textarea>
+
+            <label for="image">Image URL:</label>
+            <input type="url" id="image" value="{{planetData.image}}" name="image">
+
+            <button type="submit">Add Planet</button>
+        </form>
+    
