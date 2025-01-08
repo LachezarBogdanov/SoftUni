@@ -1,0 +1,31 @@
+
+
+    <main id="create">
+        <section id="create-container">
+            <div class="create-container-info">
+                <h1>Create Game Code Offer</h1>
+                <h4>Post your code to sell</h4>
+                <form method="POST">
+                    <label>Platform:</label>
+                    <select id="platform" name="platform">
+                        <option value="">-------</option>
+                        {{#each gameTypes}}
+                        <option value="{{value}}" {{selected}}>{{lable}}</option>
+                        {{/each}}
+                    </select>
+                    <label>Name:</label>
+                    <input type="text" id="name" value="{{gameData.name}}" name="name">
+                    <label>Image:</label>
+                    <input type="text" id="image" name="image" value="{{gameData.image}}" placeholder="http://...">
+                    <label>Price:</label>
+                    <input type="number" id="price" value="{{gameData.price}}" name="price">
+                    <label>Genre:</label>
+                    <input type="text" id="genre" value="{{gameData.genre}}" name="genre">
+                    <label>Description:</label>
+                    <textarea id="description" name="description">{{gameData.description}}</textarea>
+
+                    <input type="submit" id="btn" value="CREATE"></input>
+                </form>
+            </div>
+        </section>
+    </main>
