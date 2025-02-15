@@ -1,0 +1,43 @@
+body {
+    padding: 2em;
+}
+
+.wrapper {
+    background: white;
+    max-width: 120ch;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+.layout-item {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 0.4em;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content > main {
+    flex-grow: 2;
+}
+
+.main-content > aside {
+    flex-grow: 1;
+}
+
+.main-content-ordered {
+    display: flex;
+}
+
+.main-content-ordered > main {
+    flex-grow: 2;
+}
+
+.main-content-ordered > aside {
+    flex-grow: 1;
+    order: -1;
+}

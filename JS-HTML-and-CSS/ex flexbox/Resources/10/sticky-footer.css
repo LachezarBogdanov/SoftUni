@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    border: 2px solid green;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    border: 1px solid blue;
+    padding: 2em;
+    margin: 1em;
+}
+
+main {
+    flex-grow: 1;
+}

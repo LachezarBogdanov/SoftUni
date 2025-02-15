@@ -1,0 +1,27 @@
+div.wrapper {
+    display: flex;
+    border: 2px solid blue;
+    width: 40ch;
+    padding: 1em;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flex-item {
+    border: 1px solid black;
+    padding: 1em;
+    background: #eee;
+}
+
+div.gap-row {
+    gap: 2em 0;
+}
+
+div.gap-column {
+    gap: 0 2em;
+}
+
+div.gap {
+    gap: 2em;
+}

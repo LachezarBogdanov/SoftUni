@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    border: 2px solid blue;
+    width: 50ch;
+    padding: 1em;
+}
+
+.flex-item {
+    border: 1px solid black;
+    padding: 0.5em;
+    background: #eee;
+}
+
+div.flex-basis-5em {
+    flex-basis: 5em;
+}
+
+div.flex-shrink-0 {
+    flex-basis: 5em;
+    flex-shrink: 0;
+}
+
+div.flex-grow-one {
+    width: 900px;
+    flex-basis: 5em;
+    flex-grow: 1;
+}

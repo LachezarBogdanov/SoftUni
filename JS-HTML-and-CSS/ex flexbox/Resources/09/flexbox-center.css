@@ -1,0 +1,27 @@
+body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 700px;
+    background-color: white;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    line-height: 1;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+ul {
+    padding: 0 0 1.5em 2em;
+}

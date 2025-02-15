@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    border: 2px solid blue;
+    width: 50ch;
+    padding: 1em;
+    height: 200px;
+}
+
+.flex-item {
+    border: 1px solid black;
+    padding: 0.5em;
+    background: #eee;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+.baseline {
+    align-self: baseline;
+}

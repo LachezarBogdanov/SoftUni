@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+nav {
+    background-color: rgb(238, 238, 238);
+    padding: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    border: 1px solid #aaa;
+}
+
+nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li,
+nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: orange;
+    background: white;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+nav ul li {
+    border: 1px solid #aaa;
+    border-radius: 0.3em;
+}

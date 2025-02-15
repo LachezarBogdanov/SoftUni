@@ -1,0 +1,47 @@
+body {
+    padding: 2em;
+}
+
+.wrapper {
+    background: white;
+    max-width: 120ch;
+    margin: 0 auto;
+    padding: 2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+hr {
+    max-width: 4em;
+    margin: 2em auto;
+    color: #a1a1a1;
+    border: 1px solid #ccc;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    max-width: 50ch;
+    padding-top: 0.5em;
+    margin: 0 auto;
+    color: #787878;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    padding-bottom: 0.7em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 2em;
+}
+
+footer p {
+    max-width: 80ch;
+    margin: 0 auto;
+    color: #aaa;
+}
