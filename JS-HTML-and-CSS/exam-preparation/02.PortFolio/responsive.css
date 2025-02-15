@@ -1,0 +1,32 @@
+@media (width <= 600px) {
+
+    section.site-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-header i {
+        left: 0;
+    }
+
+    section.about {
+        display: flex;
+        align-items: center;
+    }
+
+    .about .about-header {
+        bottom: 0;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery .gallery-item {
+        flex: 1 1 auto;
+    }
+
+}

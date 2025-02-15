@@ -1,0 +1,334 @@
+body > * {
+    padding: 1em max(1em, calc((100% - 60em) / 2));
+}
+
+header {
+    background-color: pink;
+}
+
+header .links li,
+header .links a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+header .links li:not(:first-child)::before {
+    display: block;
+    content: '';
+    background-color: #fff;
+    height: 15px;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    left: -10px;
+}
+
+header .links {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+header .socials li,
+header .socials a {
+    display: block;
+    color: #fff;
+}
+
+header .socials {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    margin-bottom: -2em;
+}
+
+header nav ul li,
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+header nav {
+    background-color: #fff;
+    padding: 1.5em 7em;
+    border-radius: 10em;
+    position: relative;
+    align-items: center;
+    margin-top: 0;
+    bottom: -3.2em;
+    z-index: 100;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+header nav ul li:nth-child(3) {
+    margin-right: auto;
+}
+
+header nav .site-title a{
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: pink;
+}
+
+header nav .site-title .specialCh {
+    color: rgb(129, 217, 246);
+    text-transform: lowercase;
+}
+
+.banner {
+    background-color: #ccc;
+    padding-block: 35vh;
+    text-align: center;
+    background-image: url(./images/carousel-1.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner > * {
+    position: relative;
+    z-index: 10;
+}
+
+.banner::before {
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.banner h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 2em;
+}
+
+.banner h1 {
+    padding-bottom: 0.8em;
+    color: #fff;
+    font-size: 4em;
+}
+
+.learn-more {
+    background: pink;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: rgb(176, 133, 140);
+}
+
+main {
+    text-align: center;
+    background-color: rgb(189, 238, 255);
+    border-top: 4px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+}
+
+.main-title {
+    padding-bottom: 1em;
+    position: relative;
+    color: gray;
+}
+
+.main-title::before {
+    display: block;
+    content: '';
+    width: 2.5em;
+    height: 0.13em;
+    background-color: pink;
+    position: absolute;
+    left: calc(50% - 1.2em);
+    top: -10px;
+}
+
+.container {
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
+.container-banner a img {
+    max-height: 30em;
+    border-radius: 0.3em;
+    margin-top: -1.3em;
+}
+
+.container .container-left {
+    text-align: left;
+}
+
+.container .container-left p {
+    padding-bottom: 0.6em;
+}
+
+.container .c-title {
+    font-size: 1.3em;   
+    font-weight: 700;
+    color: rgb(44, 44, 44);
+}
+
+.container .c-main {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+
+.container .container-left p:nth-child(3) {
+    color: rgb(77, 77, 77);
+}
+
+.container .main-learn-more-left {
+    background: rgb(78, 197, 237);
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 10em;
+    color: #fff;
+}
+
+.container .container-right {
+    text-align: left;
+}
+
+.container .container-right p {
+    padding-bottom: 0.6em;
+}
+
+.container .container-right > p:nth-child(2) {
+    color: rgb(77, 72, 72);
+}
+
+.container .container-right .special-p i {
+    color: rgb(78, 197, 237);
+    font-size: 1.3em;
+    padding-right: 0.8em;
+}
+
+.special-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8em;
+}
+
+.special-p p {
+    font-weight: bold;
+    color: rgb(77, 73, 73);
+    font-size: 1.1em;
+}
+
+.special-p p:last-child {
+    padding-bottom: 2em;
+} 
+
+button.main-learn-more-right {
+    background: pink;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 10em;
+    color: #fff;
+}
+
+footer {
+    padding-block: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+footer .footer-title {
+    font-size: 3em;
+    font-weight: bold;
+    color: pink;
+}
+
+.footer-special-ch {
+    color: rgb(146, 203, 223);
+}
+
+footer .media-icons ul li,
+footer .media-icons ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(146, 203, 223);
+}
+
+footer .media-icons ul li a {
+    border: 2px solid rgb(146, 203, 223);
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+footer .media-icons ul {
+    display: flex;
+    gap: 0.5em;
+}
+
+footer .get-in-touch {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    position: relative;
+    right: 0.7em;
+}
+
+.get-in-touch .get-in-touch-left {
+    text-align: right;
+}
+
+.get-in-touch .get-in-touch-right {
+    position: relative;
+}
+
+.get-in-touch .get-in-touch-right > *,
+.get-in-touch .get-in-touch-left > * {
+    padding-bottom: 1em;
+}
+
+.get-in-touch .get-in-touch-right > h4,
+.get-in-touch .get-in-touch-left > h4 {
+    font-size: 1.2em;
+    color: rgb(35, 34, 34);
+}
+
+.get-in-touch .get-in-touch-right::before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    left: -10px;
+}
+
+.domain {
+    color: pink;
+}

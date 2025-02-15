@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+    .home-features {
+        height: auto;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+    }
+
+    .home-stats {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-image1 {
+        order: -1;
+        width: 100%;
+        height: auto;
+    }
+}

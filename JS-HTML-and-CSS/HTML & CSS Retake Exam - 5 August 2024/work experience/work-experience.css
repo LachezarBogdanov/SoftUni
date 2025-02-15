@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Margarine', sans-serif;
+}
+
+body {
+    max-width: 1920px;
+    background: #FFF0E4;
+    display: flex;
+    min-height: 100dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    gap: 1.5em;
+    flex: 0 0 1400px
+}
+
+main,
+aside {
+    padding: 1.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+}
+
+aside {
+    flex: 1 1 auto;
+}
+
+main {
+    flex: 1 1 40%;
+}
+
+aside h1,
+aside p {
+    padding-bottom: 1em;
+}
+
+aside h1 {
+    font-weight: normal;
+}
+
+aside p:nth-of-type(4) {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #9A9A9A;
+}
+
+aside h4 {
+    padding-bottom: 0.8em;
+    font-weight: normal;
+}
+
+aside h4:nth-of-type(1) {
+    padding-top: 1em;
+}
+
+.percent-90 {
+    background-color: #2991E6;
+    padding: 0;
+    border-radius: 3em;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 0.8em;
+}
+
+.percent-80 {
+    background-color: #2991E6;
+    padding: 0;
+    border-radius: 3em;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 0.8em;
+}
+
+.percent-75 {
+    background-color: #2991E6;
+    padding: 0;
+    border-radius: 3em;
+    color: #fff;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 0.8em;
+}
+
+.percent-50 {
+    background-color: #2991E6;
+    padding: 0;
+    border-radius: 3em;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+aside p i {
+    color: #2B91E6;
+    padding-right: 1em;
+}
+
+main h1 {
+    text-align: center;
+    font-weight: normal;
+    padding-block: 1em;
+}
+
+main h3 {
+    color: #66605B;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
+main p.date {
+    color: #2991E6;
+    padding-bottom: 1em;
+}
+
+main p.description:not(:last-child) {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #9A9A9A;
+}
