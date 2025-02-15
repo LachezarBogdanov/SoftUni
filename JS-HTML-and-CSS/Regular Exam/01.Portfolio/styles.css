@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font: 16px/1.5 'IBM Plex Mono', sans-serif;
+}
+
+body, textarea, input, button {
+    font: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+}
+
+.wrapper {
+  background-color: #080808;
+  flex: 0 0 1100px;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+header {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header nav {
+  background-color: #1B1B1B;
+  display: flex;
+  gap: 3.5em;
+  padding: 1.5em 2.5em;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  margin-bottom: 5em;
+}
+
+header nav ul {
+  display: flex;
+  gap: 3.5em;
+}
+
+header nav ul li a,
+header nav ul li {
+  display: block;
+  text-decoration: none;
+  color: #858678;
+}
+
+header nav .icons {
+  display: flex;
+  gap: 1.5em;
+}
+
+main {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+main .main h1 {
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+main .main p {
+  color: #9C9890;
+  padding-bottom: 1em;
+}
+
+main .main {
+  flex: 1 1 65%;
+}
+
+main .main a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3F8E00;
+  max-width: 50%;
+  padding: 0.7em 1.5em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+main .aside {
+  flex: 1 1 40%;
+}
+
+main .aside img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+footer {
+  padding: 2em 6em;
+}
+
+footer h4 {
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+
+footer .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-icons a {
+  border: 1px solid #858678;
+  padding: 0.8em 1.5em;
+  border-radius: 0.5em;
+  flex: 0 0 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

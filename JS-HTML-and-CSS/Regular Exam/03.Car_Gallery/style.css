@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+html {
+    font: 16px/1.5 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin-top: 0;
+}
+
+header {
+    background: linear-gradient(to right, #FF7088, #F3B09B, #F3B09B);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    padding: 1em;
+    padding-bottom: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li,
+header nav ul a {
+    display: block;
+    text-decoration: none;
+    color: #F8EBF9;
+}
+
+header nav ul {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+header h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.3em;
+}
+
+header nav ul li a.car-gallery-a {
+    font-weight: bold;
+    background-color: #F4BCAA;
+    padding: 1em 3.5em;
+    margin-top: -1em;
+    border: 1px solid #FCEEEA;
+    border-top: none;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+header p {
+    color: #FEFFF9;
+    padding-bottom: 1.5em;
+    font-weight: 300;
+    font-size: 1.4em;
+    padding-right: 0.3em;
+}
+
+header > a {
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #F9D6CD;
+    padding: 0.7em 2.5em;
+    margin-bottom: 3em;
+    border-radius: 0.5em;
+    margin-right: 0.3em;
+}
+
+main .cars img {
+    width: 30%;
+    height: auto;
+}
+
+main .cars {
+    width: 100%;
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    margin-top: 5em;
+    background-color: #F6F8FB;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 2.5em;
+}
+
+main .content {
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+main .content .card-content {
+    flex: 0 0 30%;
+}
+
+main .content .card-content h2{
+    color: #585F80;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+main .content .card-content p {
+    color: #8A97A0;
+    margin-bottom: 2em;
+    font-size: 0.83em;
+}
+
+main .content .card-content a{
+    display: block;
+    text-decoration: none;
+    color: #8A97A0;
+    border: 1px solid #C2C7CC;
+    width: 9em;
+    padding: 0.8em 1.5em;
+    border-radius: 0.5em;
+    margin: 0 auto;
+}
+
+section.middle-section {
+    background-image: url(./images/promo.jpg);
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+section.middle-section .wrapper {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    border: 1px solid #7EA29F;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgba(251, 255, 255, 0.1);
+}
+
+section.middle-section .wrapper h1{
+    font-weight: 300;
+    color: #FBFFFF;
+}
+
+section.middle-section .wrapper a {
+    color: #27636B;
+    background-color: #fff;
+    padding: 0.8em 2em;
+    display: block;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+
+section.weirdest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.weirdest h1 {
+    color: #525775;
+    font-weight: 400;
+    font-size: 1.8em;
+    margin-bottom: 1.3em;
+}
+
+section.weirdest a {
+    display: block;
+    text-decoration: none;
+    color: #8A97A0;
+    border: 1px solid #8A97A0;
+    padding: 0.8em 1.5em;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
+
+section.weirdest .weirdest-images {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    background-color: #F6F8FB;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 4em;
+}
+
+section.weirdest .weirdest-images img {
+    width: 20%;
+    height: auto;
+}
+
+footer {
+    border-top: 1px solid #C2C7CC;
+    background-color: #F6F8FB;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1 {
+    color: #56575F;
+    font-weight: normal;
+    padding-bottom: 0.3em;
+    font-size: 1.6em;
+}
+
+footer p:nth-of-type(1) {
+    color: #F35872;
+    border-bottom: 1px solid #D2D7DC;
+    padding-bottom: 5em;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+footer p:nth-of-type(2) {
+    padding-top: 5em;
+    color: #A7B0B8;
+}
+
