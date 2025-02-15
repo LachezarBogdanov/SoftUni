@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Lato, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 800px;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 0.5em;
+    margin: 20px auto;
+    padding: 1.5em;
+}
+
+h3 {
+    padding-top: 1.5em;
+}
+
+div.wrapper > * {
+    margin-bottom: 1em;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+details {
+    border: 1px solid lightgrey;
+    padding: 1.5em;   
+}
+
+details:not(:last-child) {
+    border-bottom: 0.5px;
+
+}

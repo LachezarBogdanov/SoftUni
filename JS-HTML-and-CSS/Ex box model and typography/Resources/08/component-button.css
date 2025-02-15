@@ -1,0 +1,80 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 1.5em;
+}
+
+h2 {
+    margin-bottom: 1.3em;
+    margin-top: 1.3em;
+}
+
+.a-buttons a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(227, 226, 226);
+    padding: 0.9em;
+    border-radius: 0.2em;
+}
+
+.a-buttons a:first-child {
+    background-color: rgb(227, 226, 226);
+}
+
+.a-buttons a:nth-child(2) {
+    background-color: orange;
+}
+
+.a-buttons a:nth-child(3) {
+    background-color: rgb(255, 255, 177);
+}
+
+.a-buttons a:nth-child(5) {
+    background-color: rgb(227, 226, 226);
+}
+
+.a-buttons a:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+.buttons button {
+    padding: 1.5em;
+    cursor: pointer;
+    border: 1px solid rgb(227, 226, 226);
+    border-radius: 0.4em;
+}
+
+.buttons button:first-child {
+    background-color: rgb(227, 226, 226);
+}
+
+.buttons button:nth-child(2) {
+    background-color: orange;
+}
+
+.buttons button:nth-child(3) {
+    background-color: rgb(255, 255, 177);
+}
+
+.buttons button:nth-child(4) {
+    background-color: white;
+}
+
+.buttons button:nth-child(5) {
+    background-color: rgb(227, 226, 226);
+}
+
+.buttons button:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+.buttons button:not(:first-child) {
+    margin-left: 0.5em;
+}

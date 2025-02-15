@@ -1,0 +1,52 @@
+div {
+    border: 1px dashed #444;
+    padding: 30px;
+    position: relative;
+}
+
+.margin {
+    background-color: rgb(255, 177, 121);
+}
+
+.margin::before {
+    content: 'margin';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+}
+
+.border {
+    background-color: blanchedalmond;
+}
+
+.border::before {
+    content: 'border';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+}
+
+.padding {
+    background-color: lightgreen;
+}
+
+.padding::before {
+    content: 'padding';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+}
+
+.content {
+    background-color: rgb(162, 250, 250);
+    text-align: center;
+}
+
+.wrapper {
+    border: none;
+    max-width: 600px;
+    margin: 0 auto;
+}

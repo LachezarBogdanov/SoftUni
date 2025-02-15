@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: url(./images/image1.jpg);
+    min-height: 700px;
+    background-size: cover ;
+    background-position: center;
+}
+
+header {
+    position: absolute;
+    right: 550px;
+    top: 250px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
