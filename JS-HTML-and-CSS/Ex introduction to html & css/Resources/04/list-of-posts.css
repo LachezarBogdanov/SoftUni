@@ -1,0 +1,9 @@
+.header-time {
+    font-style: italic;
+    color: rgb(158, 158, 158);
+}
+
+.header-p {
+    color: rgb(101, 101, 101);
+    font-weight: bold;
+}

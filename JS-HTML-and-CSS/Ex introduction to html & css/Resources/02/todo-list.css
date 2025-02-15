@@ -1,0 +1,11 @@
+.tasks {
+    list-style-type: decimal;
+}
+
+.done {
+    list-style-type: decimal;
+}
+
+.done > li {
+    text-decoration: line-through;
+} 
