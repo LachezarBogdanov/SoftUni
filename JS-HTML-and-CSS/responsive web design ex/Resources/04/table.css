@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    font-family: Lato, sans-serif; 
+}
+
+body {
+    padding: 1em;
+}
+
+@media (max-width: 600px) {
+    table,
+    table tbody,
+    table tbody tr,
+    table tbody tr td {
+        display: block;
+    }
+
+    table {
+        margin-bottom: 4em;
+        width: 100%;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tbody tr {
+        border: 1px solid #ccc;
+        background: #fff;
+        padding: 1em 1.5em;
+        border-radius: 0.3em;
+        padding-bottom: 1.5em;
+    }
+
+    table tbody tr + tr {
+        margin-top: 1em;
+    }
+
+    table tbody tr td {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dashed #DDD;
+        padding-top: 0.5em;
+    }
+
+    table tbody td::before {
+        display: block;
+        content: attr(data-title);
+        font-weight: bold;
+        padding-right: 1em;
+    }
+}
+
+@media (min-width: 600px) {
+    table {
+        margin: 2em 0;
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    table thead tr:first-child th:first-child {
+        border-top-left-radius: 0.3em;
+    }
+    
+    table thead tr:last-child th:last-child {
+        border-top-right-radius: 0.3em;
+    }
+    
+    table tbody tr:last-child td:first-child {
+        border-bottom-left-radius: 0.3em;
+    }
+    
+    table tbody tr:last-child td:last-child {
+        border-bottom-right-radius: 0.3em;
+    }
+    
+    table td,
+    table th {
+        padding: 0.5em 1em;
+        text-align: left;
+    }
+    
+    table td {
+        border-top: 1px solid #ccc;
+        background: #fff;
+    }
+    
+    
+    table thead th {
+        background: #DDD;
+    }
+}

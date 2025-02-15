@@ -1,0 +1,39 @@
+nav {
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav li,
+nav a {
+    display: block;
+}
+
+nav h1 {
+    padding-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    background-color: #CCC;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+nav ul li + li a {
+    border-top: 1px solid white;
+}
+
+@media (width > 700px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1em;
+    }
+}

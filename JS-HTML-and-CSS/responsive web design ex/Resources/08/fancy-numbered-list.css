@@ -1,0 +1,43 @@
+body {
+    margin: 2em;
+}
+
+.wrapper {
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper li {
+    flex: 1 1 300px;
+    display: block;
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    box-shadow: -0.2em 0.2em 0.2em 0 rgb(0, 0, 0, 0.2);
+}
+
+.wrapper li span {
+    display: block;
+    padding: 0.2em;
+}
+
+.wrapper li .title {
+    font-weight: bold;
+}
+
+.wrapper li::after {
+    content: '1';
+    background-color: orange;
+    aspect-ratio: 1/1;
+    padding: 0.4em 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 0.3em;
+    box-shadow: -0.2em 0.2em 0.2em 0 rgb(0, 0, 0, 0.2);
+}
