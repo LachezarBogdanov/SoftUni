@@ -1,0 +1,48 @@
+.nav-bar {
+    height: 50px;
+    padding: 10px;
+    border: 2px solid rgb(174, 173, 173);
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+    font-style: italic;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: aqua;
+}
+
+.header {
+    border: 2px solid rgb(174, 173, 173);
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.section {
+    border: 2px solid rgb(174, 173, 173);
+    margin-top: 10px;
+}
+
+.section-h {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.footer {
+    border: 2px solid rgb(174, 173, 173);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-p {
+    margin-left: 40px;
+}
+
