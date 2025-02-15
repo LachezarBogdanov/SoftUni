@@ -1,0 +1,25 @@
+body {
+    border: 3px solid green;
+    padding: 1em;
+}
+
+body > * {
+    border: 2px solid blue;
+    padding: 1em max(1em, calc((100% - 60em) / 2));
+}
+
+header {
+    background-color: pink;
+}
+
+section.banner {
+    background-color: #AAA;
+}
+
+section.contacts {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: #ddd;
+}

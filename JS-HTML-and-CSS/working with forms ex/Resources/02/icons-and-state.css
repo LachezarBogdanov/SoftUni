@@ -1,0 +1,93 @@
+h2 {
+    font-size: 1.4em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 0.8em 1.2em;
+    border: 2px solid #CCC;
+    border-radius: 0.2em;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: orange;
+}
+
+input[type="text"]:user-invalid,
+input[type="email"]:user-invalid,
+input[type="password"]:user-invalid {
+    border-color: red;
+}
+
+input[type="text"]:user-invalid ~ label,
+input[type="email"]:user-invalid ~ label,
+input[type="password"]:user-invalid ~ label {
+    color: red;
+}
+
+.field {
+    padding-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.8em 1em;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(227, 148, 0);
+}
+
+.field input:required ~ label::after {
+    content: '*';
+    color: #c00;
+    padding-left: 0.2em;
+}
+
+.field label {
+    order: -1;
+}
+
+.field .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.field .helper {
+    font-size: 0.9em;
+    color: #AAA;
+    font-style: italic;
+    padding-bottom: 0.2em;
+}
+
+.wrapper {
+    width: 100vw;
+    max-width: 25em;
+}
